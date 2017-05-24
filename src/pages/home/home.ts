@@ -14,9 +14,15 @@ export class HomePage {
   ItemsToDo = [
     // {
     //     title: "Praia de Boraceia",
-    //     description: "Larga faixa de areia plana, boa para caminhadas. Oferece quiosques e campings ao longo da orla.",
+    //     description: "Larga faixa de areia plana, boa para caminhadas. Oferece quiosques ao longo da orla.",
     //     distance: "35 km do Centro, 25 km de Indaia",
     // },
+    {
+      title: "Praia de Indaia",
+      description: `No final da praia da Enseada, com águas calmas, é frequentada pelos praticantes de atividades náuticas. 
+        A larga faixa de areia batida leva a um costão verdejante no canto esquerdo, o Morro da Enseada.`,
+      location: "Em Indaia, 10 km do centro em direção a São Sebastião"
+    },
     {
       title: "Praia de São Lourenço",
         description: `Cercada por casas, muitos prédios e seguranças. 
@@ -41,7 +47,7 @@ export class HomePage {
         location: "No Centro, 10 km de Indaia em direção ao centro",
     },
     {
-        title: "VISITAR A ALDEIA DOS ÍNDIOS GUARANIS",
+        title: "Visitar a aldeia dos índios Guaranis",
         description: `A Aldeia do Rio Silveira ocupa uma área de quase mil hectares na praia de Boracéia, 
           na divisa entre Bertioga e São Sebastião. O espaço abriga cerca de 500 índios que cultivam palmito e 
           plantas ornamentais, produzem artesanato e apresentam aos visitantes suas danças, músicas e culinária típica. 
@@ -50,7 +56,7 @@ export class HomePage {
           atividades esportivas, venda de artesanato e workshop de pintura corporal. 
           O evento acontece sempre em data próxima ao Dia do Índio (19 de abril), no Parque dos Tupiniquins, 
           ao lado do Forte de São João.`,
-        location: "No Centro, 10 km de Indaia em direção ao centro",
+        location: "SP-055, Km 189 (direção São Sebastião)",
     } 
   ];
 
