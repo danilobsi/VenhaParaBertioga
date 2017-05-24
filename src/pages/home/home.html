@@ -1,29 +1,16 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>O que fazer?</ion-title>
+    <ion-title>O que fazer</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   <ion-list>
-    <ion-item text-wrap>
-      <h2>Praia de Boraceia</h2>
-      <p>
-        Larga faixa de areia plana, boa para caminhadas. Oferece quiosques e campings ao longo da orla.
+    <ion-item text-wrap *ngFor="let item of ItemsToDo">
+      <h2>{{item.title}}</h2>
+      <p>{{item.description}} 
       </p>
-      <p><b>Comprimento:</b> 5 km</p>
-      <p><b>Distância:</b> 35 km do Centro.</p>
-    </ion-item>
-    <ion-item text-wrap>
-      <h2>Praia de São Lourenço</h2>
-      <p>
-      É bastante urbanizada, cercada por casas, muitos prédios e seguranças. 
-      Quase toda a orla, de areia batida, é acompanhada por um bonito gramado decorado com coqueiros. 
-      Apesar do mar calmo, que atrai famílias com crianças, 
-      A praia é cenário de campeonatos de surf nos arredores do píer, onde há algumas formações de ondas. 
-      </p>
-      <p><b>Comprimento:</b> 4,5 km</p>
-      <p><b>Distância:</b> 16 km do Centro.</p>
+      <p><b>Localização:</b> {{item.location}}</p>
     </ion-item>
   </ion-list>
 </ion-content>
